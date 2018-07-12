@@ -1,0 +1,5 @@
+uint64 identityID
+# List of poly2d
+poly2d[] area
+string classes
+float32 probability

@@ -3,3 +3,4 @@ Header header
 #float32 resolution             # The map resolution [m/cell]
 uint32 num                     # num of obstacles
 obs[] obsData                  # obstacles
+segs[] segsData                # areas

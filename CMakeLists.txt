@@ -5,7 +5,6 @@ set(CMAKE_CXX_FLAGS "-std=c++11 ${CMAKE_CXX_FLAGS}")
 
 find_package(catkin REQUIRED
 		COMPONENTS
-		actionlib_msgs
 		geometry_msgs
 		sensor_msgs
 		std_msgs
@@ -14,21 +13,23 @@ find_package(catkin REQUIRED
 
 ## Generate messages in the 'msg' folder
 add_message_files(
-		FILES
+	FILES
 		MapInfo.msg
 		obs.msg
 		point3.msg
+		poly2d.msg
+		segs.msg
 )
 
 generate_messages(
-		DEPENDENCIES
+	DEPENDENCIES
 		geometry_msgs
 		sensor_msgs
 		std_msgs
 )
 
 catkin_package(
-		CATKIN_DEPENDS
+	CATKIN_DEPENDS
 		geometry_msgs
 		sensor_msgs
 		message_runtime
