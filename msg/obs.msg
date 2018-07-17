@@ -1,4 +1,5 @@
 uint64 identityID
+uint64 counter      # counter of frames on which the object was detected
 point3 centerPos
 float32 diameter
 float32 height
