@@ -5,4 +5,3 @@ Header real_header
 uint32 num                     # num of obstacles
 obs[] obsData                  # obstacles
 segs[] segsData                # areas
-road[] roadData                # road features
