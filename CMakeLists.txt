@@ -19,6 +19,7 @@ add_message_files(
 		point3.msg
 		poly2d.msg
 		segs.msg
+		plane.msg
 )
 
 generate_messages(
