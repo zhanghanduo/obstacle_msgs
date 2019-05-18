@@ -20,6 +20,7 @@ add_message_files(
 		poly2d.msg
 		segs.msg
 		plane.msg
+		velocity.msg
 )
 
 generate_messages(
